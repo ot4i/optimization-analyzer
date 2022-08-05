@@ -138,6 +138,6 @@ ALL COMPLETE SO EXIT!
 
 To use the solution provided in this repository:
 ================================================
-1. git clone https://github.com/ot4i/optimization-analyzer.git
-2. On Windows, open an IBM App Connect Enterprise Command Console window (if you are running on a different platform you will need to edit the file CreateDeployOptimize.bat accordingly) and run CreateDeployOptimize.bat
+1. ```git clone https://github.com/ot4i/optimization-analyzer.git```
+2. On Windows, open an IBM App Connect Enterprise Command Console window (if you are running on a different platform you will need to edit the file CreateDeployOptimize.bat accordingly) and run ```CreateDeployOptimize.bat```
 3. Note that CreateDeployOptimize.bat calls com.ibm.dev.AnalyzeOptimizations which requires the Jackson snakeyaml dependency. This dependency comes with your IBM App Connect Enterprise installation. CreateDeployOptimize.bat includes a classpath parameter which assumes that App Connect Enterprise 12.0.5.0 is being used and that it has been installed in to the default product install location. If you have used a different product version (12.0.4.0 or above) or a different install location, you can simply edit CreateDeployOptimize.bat accordingly.
