@@ -18,8 +18,8 @@ For a given container based integration server process, it examines the working 
 
 Where can I find out more about this feature?
 =============================================
-[IBM Documentation: Optimizing the startup time for an independent integration server](https://www.ibm.com/docs/en/app-connect/12.0?topic=solutions-optimizing-startup-time-independent-integration-server)
-[IBM Documentation: ibmint optimize server command](https://www.ibm.com/docs/en/app-connect/12.0?topic=commands-ibmint-optimize-server-command)
+* [IBM Documentation: Optimizing the startup time for an independent integration server](https://www.ibm.com/docs/en/app-connect/12.0?topic=solutions-optimizing-startup-time-independent-integration-server)
+* [IBM Documentation: ibmint optimize server command](https://www.ibm.com/docs/en/app-connect/12.0?topic=commands-ibmint-optimize-server-command)
 
 Thanks for the quick summary of the feature ... but given all that, what is this repository for?
 ================================================================================================
