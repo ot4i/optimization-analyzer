@@ -4,6 +4,7 @@ A tool to help interpret the results of optimizing the start-up time of an integ
 IBM App Connect Enterprise 12.0.4.0 (released March 2022) provided a new capability which help optimize the start-up time of an independent integration server. When using an independent integration server with fixed code and configuration running in a container, it is possible in many cases to reduce the container's start-up time by determining functions of the server which are not required to be started. 
 
 Why is optimization sometimes necessary?
+========================================
 The Integration Server process is heterogeneous – it contains native C code, a JVM, a CLR (on Windows platforms), and NodeJS. It boasts a huge array of functions and capabilities built up over two decades of investment. However, as deployments become more granular and lightweight, generally the industry is shifting away from the Enterprise Service Bus design pattern, and fewer message flows are being deployed in to each separate integration server container. In this manner containerization is providing solutions with better isolation, better scalability, and better agility.
 
 What does optimization involve?
@@ -133,6 +134,6 @@ ALL COMPLETE SO EXIT!
 
 To use the utility provided in this repository:
 
-1. git clone 
+1. git clone https://github.com/ot4i/optimization-analyzer.git
 2. On Windows, open an IBM App Connect Enterprise Command Console window (if you are running on a different platform you will need to edit the file CreateDeployOptimize.bat accordingly) and run CreateDeployOptimize.bat
 3. Note that CreateDeployOptimize.bat calls com.ibm.dev.AnalyzeOptimizations which requires the Jackson snakeyaml dependency. This dependency comes with your IBM App Connect Enterprise installation. CreateDeployOptimize.bat includes a classpath parameter which assumes that App Connect Enterprise 12.0.5.0 is being used and that it has been installed in to the default product install location. If you have used a different product version (12.0.4.0 or above) or a different install location, you can simply edit CreateDeployOptimize.bat accordingly.
